@@ -99,6 +99,7 @@ nav ul li :hover{
     color:var(--primaryColor) ;
 }
 
+
 .btn{
     background-color: var(--primaryColor);
     color: var(--lightColor);
@@ -236,6 +237,17 @@ nav ul li :hover{
     width: 90%;
 }
 
+.about .container-texts2{
+    width: 49%;
+    text-align: center;
+    margin-top: 10px;
+
+    
+}
+
+.about .container-texts2 div{
+    margin-top: 35px;
+}
 .about .container-texts{
     width: 40%;
     text-align: center;
@@ -255,6 +267,13 @@ nav ul li :hover{
 .box{
     display: flex;
     justify-content: space-between;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: space-around;
+    align-items: stretch;
 }
 .card{
     width: 300px;
@@ -423,11 +442,11 @@ footer .content-footer .end{
     nav ul {
         display: none;
         position: fixed;
-        top: 0;
+        top: -26px;
         left: 0;
         width: 100vw;
-        height: 100vh;
-        background: var(--bgColor-2);
+        height: 56vh;
+        background: #000000e3
     }
 
     nav ul.is-active {
@@ -484,6 +503,25 @@ footer .content-footer .end{
     .about .container-images{
         display: none;
     }
+
+    .about .container-texts2{
+        width: 100%;
+        text-align: center;
+        margin-top: -35px;
+    }
+    .about .container-texts2 h1{
+        font-size: 3.0rem;
+        margin: 1.7rem 0;
+    }
+    .about .container-texts2 h5{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        letter-spacing: -1px;
+    }
+    .about .container-texts2 div{
+        margin-top: 20px;
+    }
+
 
     .about .container-texts{
         width: 100%;
